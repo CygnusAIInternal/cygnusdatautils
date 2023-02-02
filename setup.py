@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    name='example_publish_pypi_medium',
+    name='cygnusdatautils',
     version='0.1',
     license='MIT',
     author="Mustafa Qazi",
