@@ -2,14 +2,14 @@ from distutils.core import setup
 
 setup(
     name='cygnusdatautils',
-    version='0.1',
+    version='0.2',
     license='MIT',
     author="Mustafa Qazi",
     author_email='mus.qazi999@gmail.com',
     packages=['cygnusdatautils'],
     description='Data utils for cygnus',
     url='https://github.com/CygnusAIInternal/cygnusdatautils',
-    download_url='https://github.com/CygnusAIInternal/cygnusdatautils/archive/refs/tags/v_01.tar.gz',
+    download_url='https://github.com/CygnusAIInternal/cygnusdatautils/archive/refs/tags/v_02.tar.gz',
     keywords='cygnus data utils',
     install_requires=[
             'pandas',

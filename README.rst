@@ -9,8 +9,14 @@ pip install cygnusdatautils
 ## Usage:
 
 ```python
-import cygnusdatautils as cdu
+from cygnusdatautils import Cysharefile
 
-connection = cdu.get_postgresql_connector( 'host', 'port', 'username', 'password', 'database')
+sf = Cysharefile(hostname, client_id, client_secret, username, password)
+
+token = sf.authenticate()
+
+print(sf.get_dir_list_wrapper())
+
+
 
 ```
